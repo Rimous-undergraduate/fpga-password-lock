@@ -1,0 +1,16 @@
+# Simulator-generated data and local projects
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+*.sim
+*.mpf
+*.mti
+*.cr.mti
+modelsim.ini
+results/
+# Local editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db

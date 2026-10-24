@@ -1,0 +1,13 @@
+CONDITIONS: common forced internal clock; original startup seeded; reduced improved timers
+PASS: both begin in IDLE with SW=A
+PASS: both have matching A baseline
+PASS: improved starts on SW change
+PASS: original stalls in IDLE after identical SW change
+PASS: same 01AF stimulus: improved shows PASS
+PASS: same 01AF stimulus: original still IDLE
+PASS: improved returns to IDLE after scaled timeout
+PASS: improved starts on SW change
+PASS: same 01AE stimulus: improved shows FAIL
+PASS: same 01AE stimulus: original still IDLE
+ALL 10 COMPARISON CHECKS PASSED
+tb/tb_compare.sv:67: $finish called at 5081000 (1ps)

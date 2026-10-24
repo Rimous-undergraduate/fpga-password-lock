@@ -1,0 +1,44 @@
+VCD info: dumpfile results/improved.vcd opened for output.
+PASS: asynchronous reset clears state/LEDs
+PASS: INIT captures current switch baseline
+PASS: unchanged switches keep IDLE after reset
+PASS: switch-only change starts input
+PASS: expected key advances exactly one input stage
+PASS: previous key bounce cannot advance next stage
+PASS: previous key bounce cannot advance next stage
+PASS: previous key bounce cannot advance next stage
+PASS: expected key advances exactly one input stage
+PASS: expected key advances exactly one input stage
+PASS: expected key advances exactly one input stage
+PASS: 01AF authenticates successfully
+PASS: PASS LED output
+PASS: PASS segment pattern
+PASS: result timeout returns to IDLE
+PASS: IDLE clears result LEDs
+PASS: STOP baseline prevents unwanted restart
+PASS: switch-only change starts input
+PASS: expected key advances exactly one input stage
+PASS: expected key advances exactly one input stage
+PASS: expected key advances exactly one input stage
+PASS: expected key advances exactly one input stage
+PASS: 01AE is rejected
+PASS: FAIL LED output
+PASS: FAIL segment pattern
+PASS: result timeout returns to IDLE
+PASS: IDLE clears result LEDs
+PASS: STOP baseline prevents unwanted restart
+PASS: switch-only change starts input
+PASS: expected key advances exactly one input stage
+PASS: asynchronous reset clears state/LEDs
+PASS: INIT captures current switch baseline
+PASS: unchanged switches keep IDLE after reset
+PASS: mid-entry reset clears partial password
+PASS: switch-only change starts input
+PASS: illegal state maps to ERROR
+PASS: ERROR entered
+PASS: result timeout returns to IDLE
+PASS: IDLE clears result LEDs
+PASS: STOP baseline prevents unwanted restart
+PASS: blink pipeline has known values after reset
+ALL 41 CHECKS PASSED
+tb/tb_improved.sv:69: $finish called at 6731000 (1ps)

@@ -1,0 +1,4 @@
+VCD info: dumpfile results/original.vcd opened for output.
+REPRODUCED: reset does not initialize divider or initial_sw in original RTL
+REPRODUCED: SW changes but original RTL remains IDLE (incomplete sensitivity)
+tb/tb_original.sv:24: $finish called at 1772000 (1ps)
