@@ -88,6 +88,14 @@ The following PDFs were exported from the author's ModelSim runs:
 
 Text logs from the Icarus runs are in [docs/logs](docs/logs).
 
+## Original Hardware Demonstration
+
+Photos taken during the original course project.
+These show the original RTL running on the FPGA board.
+The revised RTL has been verified in simulation only.
+
+![Failed authentication](docs/images/20250529_board-fail.jpg)
+
 ## Reproduce in ModelSim
 
 The author compiled and ran all three supplied testbenches in ModelSim Intel FPGA Starter Edition 10.5b. The `compare.do` script was used for the common-input comparison. Additional convenience scripts `improved.do` and `original.do` are provided but have not been independently rerun in ModelSim as scripts.
